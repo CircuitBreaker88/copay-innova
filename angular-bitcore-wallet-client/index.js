@@ -1,5 +1,5 @@
 var bwcModule = angular.module('bwcModule', []);
-var Client = require('../node_modules/bitcore-wallet-client-innova');
+var Client = require('../node_modules/bitcore-wallet-client');
 
 bwcModule.constant('MODULE_VERSION', '1.0.0');
 
@@ -38,7 +38,7 @@ bwcModule.provider("bwcService", function() {
 
       //note opts use `bwsurl` all lowercase;
       var bwc = new Client({
-        baseUrl: opts.bwsurl || 'https://bws.innovacoin.info/bws/api',
+        baseUrl: opts.bwsurl || 'https://bws.MoneyByte.info/bws/api',
         verbose: opts.verbose,
         timeout: 100000,
         transports: ['polling'],

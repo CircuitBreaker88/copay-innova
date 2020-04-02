@@ -8,7 +8,7 @@ angular.module('copayApp.services').service('addressbookService', function($log,
     try {
       network = (new bitcore.Address(address)).network.name;
     } catch(e) {
-      $log.warn('No valid innova address.');
+      $log.warn('No valid moneybyte address.');
       network = (new bitcoreCash.Address(address)).network.name;
     }
     return network;
@@ -47,7 +47,7 @@ angular.module('copayApp.services').service('addressbookService', function($log,
 
   root.add = function(entry, cb) {
     var network = getNetwork(entry.address);
-    if (lodash.isEmpty(network)) return cb('Not valid innova address');
+    if (lodash.isEmpty(network)) return cb('Not valid moneybyte address');
     storageService.getAddressbook(network, function(err, ab) {
       if (err) return cb(err);
       if (ab) ab = JSON.parse(ab);
@@ -66,7 +66,7 @@ angular.module('copayApp.services').service('addressbookService', function($log,
 
   root.remove = function(addr, cb) {
     var network = getNetwork(addr);
-    if (lodash.isEmpty(network)) return cb('Not valid innova address');
+    if (lodash.isEmpty(network)) return cb('Not valid moneybyte address');
     storageService.getAddressbook(network, function(err, ab) {
       if (err) return cb(err);
       if (ab) ab = JSON.parse(ab);

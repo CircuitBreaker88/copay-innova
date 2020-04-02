@@ -23,9 +23,9 @@ angular.module('copayApp.services').service('buyAndSellService', function($log, 
 
     if (linkedServices.length == 0) {
       nextStepsService.register({
-        title: 'Buy or Sell Innova',
+        title: 'Buy or Sell MoneyByte',
         name: 'buyandsell',
-        icon: 'icon-buy-innova',
+        icon: 'icon-buy-moneybyte',
         sref: 'tabs.buyandsell',
       });
     } else {

@@ -158,8 +158,8 @@ angular.module('copayApp.services').service('incomingData', function($log, $stat
         // Translate address
         $log.debug('address transalated to:' + addr);
         popupService.showConfirm(
-          gettextCatalog.getString('Innova Payment'),
-          gettextCatalog.getString('Payment address was translated to new Innova address format: ' + addr),
+          gettextCatalog.getString('MoneyByte Payment'),
+          gettextCatalog.getString('Payment address was translated to new MoneyByte address format: ' + addr),
           gettextCatalog.getString('OK'),
           gettextCatalog.getString('Cancel'),
           function(ret) {

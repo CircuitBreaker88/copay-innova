@@ -32,7 +32,7 @@ angular.module('copayApp.controllers').controller('tourController',
         $scope.localCurrencySymbol = '$';
         $scope.localCurrencyPerBtc = $filter('formatFiatAmount')(parseFloat(rate.toFixed(2), 10));
 
-        $http.get('https://api.coinmarketcap.com/v1/ticker/innova/').then(function (response) {
+        $http.get('https://api.coinmarketcap.com/v1/ticker/moneybyte/').then(function (response) {
           var value_object = response.data[0];
 
           $scope.localCurrencySymbol = '$';

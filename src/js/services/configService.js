@@ -14,12 +14,12 @@ angular.module('copayApp.services').service('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://bws.innovacoin.info/bws/api',
+      url: 'https://bws.MoneyByte.info/bws/api',
     },
 
     download: {
-      innova: {
-        url: 'https://github.com/innovacoin/copay-innova/releases/latest'
+      moneybyte: {
+        url: 'https://github.com/MoneyByte/copay/releases/latest'
       }
     },
 
@@ -67,7 +67,7 @@ angular.module('copayApp.services').service('configService', function(storageSer
     },
 
     rates: {
-      url: 'https://insight.innovacoin.info/insight-api-innova/currency',
+      url: 'https://insight.MoneyByte.info/insight-api-moneybyte/currency',
     },
 
     release: {

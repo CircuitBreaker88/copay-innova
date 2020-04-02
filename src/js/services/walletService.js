@@ -12,7 +12,7 @@ angular.module('copayApp.services').service('walletService', function($log, $tim
   var inn_to_usd;
   var inn_to_btc;
   
-  $http.get('https://api.coinmarketcap.com/v1/ticker/innova/').then(function (response) {
+  $http.get('https://api.coinmarketcap.com/v1/ticker/moneybyte/').then(function (response) {
     var value_object = response.data[0];
     inn_to_usd = parseFloat(value_object.price_usd);
     inn_to_btc = parseFloat(value_object.price_btc);
@@ -1308,7 +1308,7 @@ angular.module('copayApp.services').service('walletService', function($log, $tim
       return 'bitcoincash';
     } else {
       // return 'bitcoin';
-      return 'innova';
+      return 'moneybyte';
     }
   }
 

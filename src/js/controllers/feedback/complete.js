@@ -7,7 +7,7 @@ angular.module('copayApp.controllers').controller('completeController', function
   });
 
   var defaults = configService.getDefaults();
-  var downloadUrl = defaults.download.innova.url;
+  var downloadUrl = defaults.download.moneybyte.url;
 
   function quickFeedback(cb) {
     window.plugins.spinnerDialog.show();

@@ -17,9 +17,9 @@ angular.module('copayApp.controllers').controller('shapeshiftDetailsController',
   $scope.openTransaction = function(id) {
     var url;
     if ($scope.ss['outgoingType'].toUpperCase() == 'BTC') {
-      url = "https://insight.innovacoin.info/tx/" + id;
+      url = "https://insight.MoneyByte.info/tx/" + id;
     } else if ($scope.ss['outgoingType'].toUpperCase() == 'BCH') {
-      url = "https://insight.innovacoin.info/tx/" + id;
+      url = "https://insight.MoneyByte.info/tx/" + id;
     } else {
       return;
     }

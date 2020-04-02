@@ -15,7 +15,7 @@
         <div class="item input search-wrapper" ng-class="{'focus': searchFocus}">
           <i class="icon icon-svg abs-v-center"><img class="svg" src="img/icon-bitcoin-symbol.svg"></i>
           <div class="item-icon-right">
-            <input type="text" class="search-input" placeholder="{{'Search or enter innova address' | translate}}" ng-model="formData.search" ng-change="findContact(formData.search)" ng-model-onblur ng-focus="searchInFocus()" ng-blur="searchBlurred()">
+            <input type="text" class="search-input" placeholder="{{'Search or enter moneybyte address' | translate}}" ng-model="formData.search" ng-change="findContact(formData.search)" ng-model-onblur ng-focus="searchInFocus()" ng-blur="searchBlurred()">
             <i class="icon icon-svg qr abs-v-center separator-left" on-tap="openScanner()"><img src="img/scan-ico.svg"></i>
           </div>
         </div>
@@ -31,15 +31,15 @@
           </i>
         </div>
         <div class="title" translate>
-          Start sending innova
+          Start sending moneybyte
         </div>
         <div class="subtitle">
-          <span ng-show="hasWallets" translate>To get started, buy innova or share your address. You can receive innova from any wallet or service.</span>
-          <span ng-show="!hasWallets" translate>To get started, you'll need to create a innova wallet and get some innova.</span>
+          <span ng-show="hasWallets" translate>To get started, buy moneybyte or share your address. You can receive moneybyte from any wallet or service.</span>
+          <span ng-show="!hasWallets" translate>To get started, you'll need to create a moneybyte wallet and get some moneybyte.</span>
           <div class="padding">
-            <button class="button button-standard button-primary" ng-click="buyBitcoin()" ng-show="hasWallets" translate>Buy Innova</button>
-            <button class="button button-standard button-primary" ng-click="createWallet()" ng-show="!hasWallets" translate>Create innova wallet</button>
-            <button class="button button-standard button-secondary" ui-sref="tabs.receive" ng-show="hasWallets" translate>Show innova address</button>
+            <button class="button button-standard button-primary" ng-click="buyBitcoin()" ng-show="hasWallets" translate>Buy MoneyByte</button>
+            <button class="button button-standard button-primary" ng-click="createWallet()" ng-show="!hasWallets" translate>Create moneybyte wallet</button>
+            <button class="button button-standard button-secondary" ui-sref="tabs.receive" ng-show="hasWallets" translate>Show moneybyte address</button>
           </div>
         </div>
       </div>

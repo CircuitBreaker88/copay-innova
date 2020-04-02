@@ -90,8 +90,8 @@ msgid "Add Account"
 msgstr "Ajouter un compte"
 
 #: src/js/services/bitpayAccountService.js:69
-msgid "Add Innova Dev Account?"
-msgstr "Ajouter un compte Innova Dev ?"
+msgid "Add MoneyByte Dev Account?"
+msgstr "Ajouter un compte MoneyByte Dev ?"
 
 #: www/views/addressbook.add.html:4
 #: www/views/addressbook.html:22
@@ -135,8 +135,8 @@ msgid "Add funds"
 msgstr "Ajouter des fonds"
 
 #: src/js/services/bitpayAccountService.js:78
-msgid "Add this Innova Dev account ({{email}})?"
-msgstr "Voulez-vous ajouter ce compte Innova Dev ({{email}}) ?"
+msgid "Add this MoneyByte Dev account ({{email}})?"
+msgstr "Voulez-vous ajouter ce compte MoneyByte Dev ({{email}}) ?"
 
 #: www/views/add.html:3
 msgid "Add wallet"
@@ -178,12 +178,12 @@ msgid "All Addresses"
 msgstr "Toutes les adresses"
 
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your innova wallet balance may not be available for immediate spending."
-msgstr "L'intégralité du solde de votre portefeuille innova peut ne pas être disponible pour des dépenses immédiates."
+msgid "All of your moneybyte wallet balance may not be available for immediate spending."
+msgstr "L'intégralité du solde de votre portefeuille moneybyte peut ne pas être disponible pour des dépenses immédiates."
 
 #: www/views/tab-receive.html:25
-msgid "All signing devices must be added to this multisig wallet before innova addresses can be created."
-msgstr "Tous les appareils de signature doivent être ajoutés à ce portefeuille multisig avant que les adresses innova ne puissent être créées."
+msgid "All signing devices must be added to this multisig wallet before moneybyte addresses can be created."
+msgstr "Tous les appareils de signature doivent être ajoutés à ce portefeuille multisig avant que les adresses moneybyte ne puissent être créées."
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
@@ -229,20 +229,20 @@ msgid "An update to this app is available. For your security, please update to t
 msgstr "Une mise à jour de cette appli est disponible. Pour votre sécurité, veuillez mettre à jour vers la dernière version."
 
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your innova."
-msgstr "Quelqu'un disposant de votre phrase de sauvegarde peut dépenser vos innovas."
+msgid "Anyone with your backup phrase can access or spend your moneybyte."
+msgstr "Quelqu'un disposant de votre phrase de sauvegarde peut dépenser vos moneybytes."
 
 #: www/views/addresses.html:94
-msgid "Approximate Innova network fee to transfer wallet's balance (with normal priority)"
-msgstr "Frais de réseau Innova approximatifs pour transférer le solde du portefeuille (avec des frais normaux)"
+msgid "Approximate MoneyByte network fee to transfer wallet's balance (with normal priority)"
+msgstr "Frais de réseau MoneyByte approximatifs pour transférer le solde du portefeuille (avec des frais normaux)"
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
 msgstr "Êtes-vous surveillé(e) ?"
 
 #: src/js/controllers/preferencesExternal.js:15
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your innova."
-msgstr "Êtes-vous surveillé(e) ? N’importe qui peut dépenser vos innovas grâce à votre phrase de récupération."
+msgid "Are you being watched? Anyone with your recovery phrase can access or spend your moneybyte."
+msgstr "Êtes-vous surveillé(e) ? N’importe qui peut dépenser vos moneybytes grâce à votre phrase de récupération."
 
 #: src/js/controllers/copayers.js:56
 msgid "Are you sure you want to cancel and delete this wallet?"
@@ -269,13 +269,13 @@ msgid "Are you sure you want to skip it?"
 msgstr "Êtes-vous sûr(e) de vouloir ignorer la sauvegarde ?"
 
 #: www/views/modals/bitpay-card-confirmation.html:4
-msgid "Are you sure you would like to log out of your Innova Dev Card account?"
-msgstr "Souhaitez-vous réellement vous déconnecter de votre compte Innova Dev Card ?"
+msgid "Are you sure you would like to log out of your MoneyByte Dev Card account?"
+msgstr "Souhaitez-vous réellement vous déconnecter de votre compte MoneyByte Dev Card ?"
 
 #: src/js/controllers/preferencesBitpayCard.js:7
 #: src/js/controllers/preferencesBitpayServices.js:20
-msgid "Are you sure you would like to remove your Innova Dev Card ({{lastFourDigits}}) from this device?"
-msgstr "Êtes-vous sûr(e) de vouloir supprimer votre Innova Dev Card ({{lastFourDigits}}) de cet appareil ?"
+msgid "Are you sure you would like to remove your MoneyByte Dev Card ({{lastFourDigits}}) from this device?"
+msgstr "Êtes-vous sûr(e) de vouloir supprimer votre MoneyByte Dev Card ({{lastFourDigits}}) de cet appareil ?"
 
 #: www/views/includes/walletInfo.html:10
 msgid "Auditable"
@@ -349,51 +349,51 @@ msgid "Be sure to store your recovery phrase in a secure place. If this app is d
 msgstr "N’oubliez pas de conserver votre phrase de récupération dans un endroit sûr. Si cette application est supprimée, votre argent ne peut pas être récupéré sans elle."
 
 #: www/views/preferencesBitpayServices.html:9
-msgid "Innova Dev Visa&reg; Cards"
-msgstr "Innova Dev Visa&reg; Cards"
+msgid "MoneyByte Dev Visa&reg; Cards"
+msgstr "MoneyByte Dev Visa&reg; Cards"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Innova Address"
-msgstr "Adresse innova"
+msgid "MoneyByte Address"
+msgstr "Adresse moneybyte"
 
 #: www/views/includes/walletSelector.html:42
 #: www/views/tab-home.html:112
 #: www/views/tab-settings.html:108
-msgid "Innova Cash Wallets"
-msgstr "Portefeuilles Innova Cash"
+msgid "MoneyByte Cash Wallets"
+msgstr "Portefeuilles MoneyByte Cash"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:83
-msgid "Innova Network Fee Policy"
+msgid "MoneyByte Network Fee Policy"
 msgstr "Frais de réseau"
 
 #: www/views/includes/walletSelector.html:11
 #: www/views/tab-home.html:97
 #: www/views/tab-settings.html:100
-msgid "Innova Wallets"
-msgstr "Portefeuilles Innova"
+msgid "MoneyByte Wallets"
+msgstr "Portefeuilles MoneyByte"
 
 #: src/js/services/incomingData.js:151
-msgid "Innova cash Payment"
-msgstr "Paiement Innova Cash"
+msgid "MoneyByte cash Payment"
+msgstr "Paiement MoneyByte Cash"
 
 #: www/views/onboarding/tour.html:31
-msgid "Innova is a currency."
-msgstr "Innova est une monnaie."
+msgid "MoneyByte is a currency."
+msgstr "MoneyByte est une monnaie."
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Innova is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "Les innovas sont particuliers &ndash; ils ne peuvent pas être stockés en toute sécurité sur un service internet ou bancaire."
+msgid "MoneyByte is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "Les moneybytes sont particuliers &ndash; ils ne peuvent pas être stockés en toute sécurité sur un service internet ou bancaire."
 
 #: www/views/onboarding/tour.html:18
-msgid "Innova is secure,<br>digital money."
-msgstr "Innova est de l'argent<br>numérique sécurisé."
+msgid "MoneyByte is secure,<br>digital money."
+msgstr "MoneyByte est de l'argent<br>numérique sécurisé."
 
 #: www/views/preferencesFee.html:11
-msgid "Innova transactions include a fee collected by miners on the network."
-msgstr "Les transactions Innova incluent des frais collectés par les mineurs du réseau."
+msgid "MoneyByte transactions include a fee collected by miners on the network."
+msgstr "Les transactions MoneyByte incluent des frais collectés par les mineurs du réseau."
 
 #: www/views/buyAmazon.html:108
 msgid "Bought {{amountUnitStr}}"
@@ -422,12 +422,12 @@ msgid "Buy"
 msgstr "Acheter"
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell Innova"
-msgstr "Acheter &amp; vendre des innovas"
+msgid "Buy &amp; Sell MoneyByte"
+msgstr "Acheter &amp; vendre des moneybytes"
 
 #: www/views/tab-send.html:40
-msgid "Buy Innova"
-msgstr "Acheter des innovas"
+msgid "Buy MoneyByte"
+msgstr "Acheter des moneybytes"
 
 #: www/views/mercadoLibre.html:22
 #: www/views/mercadoLibre.html:50
@@ -439,8 +439,8 @@ msgid "Buy from"
 msgstr "Acheter depuis"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Innova..."
-msgstr "Achat de innovas..."
+msgid "Buying MoneyByte..."
+msgstr "Achat de moneybytes..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -593,8 +593,8 @@ msgid "Confirming"
 msgstr "Confirmation"
 
 #: www/views/bitpayCardIntro.html:37
-msgid "Connect my Innova Dev Card"
-msgstr "Connecter ma Innova Dev Card"
+msgid "Connect my MoneyByte Dev Card"
+msgstr "Connecter ma MoneyByte Dev Card"
 
 #: src/js/services/onGoingProcess.js:13
 msgid "Connecting to Coinbase..."
@@ -621,8 +621,8 @@ msgid "Contribute Translations"
 msgstr "Contribuer aux traductions"
 
 #: src/js/controllers/confirm.js:130
-msgid "Copay only supports Innova Cash using new version numbers addresses"
-msgstr "Copay prend uniquement en charge le nouveau type d'adresse de Innova Cash"
+msgid "Copay only supports MoneyByte Cash using new version numbers addresses"
+msgstr "Copay prend uniquement en charge le nouveau type d'adresse de MoneyByte Cash"
 
 #: src/js/services/bwcError.js:62
 msgid "Copayer already in this wallet"
@@ -813,8 +813,8 @@ msgstr "Créer un portefeuille partagé"
 #: www/views/onboarding/tour.html:51
 #: www/views/tab-home.html:89
 #: www/views/tab-send.html:41
-msgid "Create innova wallet"
-msgstr "Créer un portefeuille innova"
+msgid "Create moneybyte wallet"
+msgstr "Créer un portefeuille moneybyte"
 
 #: www/views/tab-create-personal.html:131
 msgid "Create new wallet"
@@ -939,8 +939,8 @@ msgid "Duplicating wallet..."
 msgstr "Duplication du portefeuille..."
 
 #: www/views/addresses.html:19
-msgid "Each innova wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
-msgstr "Chaque portefeuille innova peut générer des milliards d’adresses depuis votre sauvegarde de 12 mots. Une nouvelle adresse est automatiquement générée et affichée à chaque fois que vous recevez un paiement."
+msgid "Each moneybyte wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgstr "Chaque portefeuille moneybyte peut générer des milliards d’adresses depuis votre sauvegarde de 12 mots. Une nouvelle adresse est automatiquement générée et affichée à chaque fois que vous recevez un paiement."
 
 #: src/js/services/feeService.js:13
 msgid "Economy"
@@ -985,8 +985,8 @@ msgid "Enter Spending Password"
 msgstr "Saisissez le code de dépenses"
 
 #: src/js/services/bitpayAccountService.js:110
-msgid "Enter Two Factor for your Innova Dev account"
-msgstr "Saisissez le code à deux facteurs pour votre compte Innova Dev"
+msgid "Enter Two Factor for your MoneyByte Dev account"
+msgstr "Saisissez le code à deux facteurs pour votre compte MoneyByte Dev"
 
 #: www/views/amount.html:4
 msgid "Enter amount"
@@ -1121,8 +1121,8 @@ msgid "Error in Payment Protocol"
 msgstr "Erreur dans le protocole de paiement"
 
 #: src/js/controllers/bitpayCardIntro.js:14
-msgid "Error pairing Innova Dev Account"
-msgstr "Erreur d'appariement du compte Innova Dev"
+msgid "Error pairing MoneyByte Dev Account"
+msgstr "Erreur d'appariement du compte MoneyByte Dev"
 
 #: src/js/controllers/paperWallet.js:41
 msgid "Error scanning funds:"
@@ -1219,8 +1219,8 @@ msgid "Feedback could not be submitted. Please try again later."
 msgstr "Vos commentaires n'ont pas pu être envoyés. Veuillez réessayer plus tard."
 
 #: src/js/services/onGoingProcess.js:42
-msgid "Fetching Innova Dev Account..."
-msgstr "Récupération du compte Innova Dev..."
+msgid "Fetching MoneyByte Dev Account..."
+msgstr "Récupération du compte MoneyByte Dev..."
 
 #: src/js/services/onGoingProcess.js:21
 msgid "Fetching payment information"
@@ -1261,8 +1261,8 @@ msgid "From"
 msgstr "De"
 
 #: src/js/controllers/bitpayCardIntro.js:71
-msgid "From Innova Dev account"
-msgstr "Depuis un compte Innova Dev"
+msgid "From MoneyByte Dev account"
+msgstr "Depuis un compte MoneyByte Dev"
 
 #: www/views/tab-import-phrase.html:57
 msgid "From Hardware Wallet"
@@ -1313,8 +1313,8 @@ msgid "Get local cash anywhere you go, from any Visa<sup>&reg;</sup> compatible 
 msgstr "Retirez de l'argent partout où vous allez, depuis n'importe quel distributeur compatible Visa<sup>&reg;</sup>. Des frais bancaires de distributeur peuvent s'appliquer."
 
 #: www/views/onboarding/collectEmail.html:15
-msgid "Get news and updates from Innova Dev"
-msgstr "Obtenir les actualités et mises à jour de Innova Dev"
+msgid "Get news and updates from MoneyByte Dev"
+msgstr "Obtenir les actualités et mises à jour de MoneyByte Dev"
 
 #: www/views/bitpayCard.html:49
 msgid "Get started"
@@ -1394,8 +1394,8 @@ msgstr "Portefeuille matériel"
 
 #: src/js/controllers/create.js:178
 #: src/js/controllers/join.js:144
-msgid "Hardware wallets are not yet supported with Innova Cash"
-msgstr "Les portefeuilles matériels ne sont pas encore pris en charge avec Innova Cash"
+msgid "Hardware wallets are not yet supported with MoneyByte Cash"
+msgstr "Les portefeuilles matériels ne sont pas encore pris en charge avec MoneyByte Cash"
 
 #: www/views/modals/mercadolibre-card-details.html:69
 #: www/views/tab-settings.html:20
@@ -1476,8 +1476,8 @@ msgid "I understand"
 msgstr "Je comprends"
 
 #: www/views/onboarding/disclaimer.html:21
-msgid "I understand that if this app is moved to another device or deleted, my innova can only be recovered with the backup phrase."
-msgstr "Je comprends que si cette application est déplacée vers un autre appareil ou supprimée, mes innovas ne peuvent être récupérés qu'avec la phrase de sauvegarde."
+msgid "I understand that if this app is moved to another device or deleted, my moneybyte can only be recovered with the backup phrase."
+msgstr "Je comprends que si cette application est déplacée vers un autre appareil ou supprimée, mes moneybytes ne peuvent être récupérés qu'avec la phrase de sauvegarde."
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
@@ -1500,8 +1500,8 @@ msgid "If enabled, wallets will also try to spend unconfirmed funds. This option
 msgstr "Si l'option est activée, les portefeuilles vont essayer de dépenser des fonds non confirmés. Cette option peut entraîner des retards de transaction."
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor Innova Dev can recover your funds without a backup."
-msgstr "Si cet appareil est remplacé ou si cette appli est supprimée, ni vous ni Innova Dev ne pouvez récupérer vos fonds sans une sauvegarde."
+msgid "If this device is replaced or this app is deleted, neither you nor MoneyByte Dev can recover your funds without a backup."
+msgstr "Si cet appareil est remplacé ou si cette appli est supprimée, ni vous ni MoneyByte Dev ne pouvez récupérer vos fonds sans une sauvegarde."
 
 #: www/views/feedback/complete.html:23
 msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
@@ -1634,8 +1634,8 @@ msgid "Is this email address correct?"
 msgstr "Cette adresse e-mail est-elle correcte ?"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your innovas secure against hypothetical attacks by quantum computers."
-msgstr "C’est une bonne idée d'éviter la réutilisation des adresses. Cela fois protège votre anonymat et garde vos innovas en sécurité contre les attaques hypothétiques des ordinateurs quantiques."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your moneybytes secure against hypothetical attacks by quantum computers."
+msgstr "C’est une bonne idée d'éviter la réutilisation des adresses. Cela fois protège votre anonymat et garde vos moneybytes en sécurité contre les attaques hypothétiques des ordinateurs quantiques."
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1850,8 +1850,8 @@ msgid "No access key defined"
 msgstr "Aucune clé d’accès définie"
 
 #: www/views/onboarding/backupRequest.html:5
-msgid "No backup, no innova."
-msgstr "Pas de sauvegarde, pas de innova."
+msgid "No backup, no moneybyte."
+msgstr "Pas de sauvegarde, pas de moneybyte."
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -1907,8 +1907,8 @@ msgid "No wallets available to receive funds"
 msgstr "Aucun portefeuille disponible pour recevoir des fonds"
 
 #: www/views/preferencesCash.html:15
-msgid "No wallets eligible for Innova Cash support"
-msgstr "Aucun portefeuille n'est éligible pour Innova Cash"
+msgid "No wallets eligible for MoneyByte Cash support"
+msgstr "Aucun portefeuille n'est éligible pour MoneyByte Cash"
 
 #: src/js/controllers/preferencesCash.js:58
 msgid "Non BIP44 wallet"
@@ -1931,8 +1931,8 @@ msgid "Not enough funds for fee"
 msgstr "Pas assez de fonds pour les frais"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even Innova Dev can access it."
-msgstr "Même Innova Dev ne peut y accéder."
+msgid "Not even MoneyByte Dev can access it."
+msgstr "Même MoneyByte Dev ne peut y accéder."
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
@@ -1952,8 +1952,8 @@ msgid "Note: if this BCH wallet was duplicated from a BTC wallet, they share the
 msgstr "Remarque : si ce portefeuille BCH a été dupliqué à partir d'un portefeuille BTC, ils partagent la même phrase de récupération."
 
 #: www/views/modals/wallets.html:25
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell innova"
-msgstr "Note : seuls les portefeuilles 1-1 (signature unique) peuvent être utilisés pour vendre des innovas"
+msgid "Notice: only 1-1 (single signature) wallets can be used for sell moneybyte"
+msgstr "Note : seuls les portefeuilles 1-1 (signature unique) peuvent être utilisés pour vendre des moneybytes"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:54
@@ -2065,8 +2065,8 @@ msgid "Open website"
 msgstr "Ouvrir le site internet"
 
 #: www/views/bitpayCardIntro.html:34
-msgid "Order the Innova Dev Card"
-msgstr "Commander la Innova Dev Card"
+msgid "Order the MoneyByte Dev Card"
+msgstr "Commander la MoneyByte Dev Card"
 
 #: www/views/join.html:105
 #: www/views/join.html:96
@@ -2092,8 +2092,8 @@ msgid "Paste the backup plain text code"
 msgstr "Collez le code texte de sauvegarde"
 
 #: www/views/bitpayCardIntro.html:28
-msgid "Pay 0% fees to turn innova into dollars."
-msgstr "Aucun frais pour échanger des innovas en dollars."
+msgid "Pay 0% fees to turn moneybyte into dollars."
+msgstr "Aucun frais pour échanger des moneybytes en dollars."
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
@@ -2153,8 +2153,8 @@ msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a p
 msgstr "Paiement accepté. Il sera diffusé par Glidera. Dans le cas où il y a un problème, il peut être supprimé 6 heures après avoir été créé."
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new Innova Cash address format:"
-msgstr "L'adresse de paiement a été convertie au nouveau format d'adresse Innova Cash :"
+msgid "Payment address was translated to new MoneyByte Cash address format:"
+msgstr "L'adresse de paiement a été convertie au nouveau format d'adresse MoneyByte Cash :"
 
 #: www/views/modals/txp-details.html:107
 msgid "Payment details"
@@ -2404,16 +2404,16 @@ msgid "Remove"
 msgstr "Supprimer"
 
 #: src/js/controllers/preferencesBitpayServices.js:7
-msgid "Remove Innova Dev Account?"
-msgstr "Supprimer le compte Innova Dev ?"
+msgid "Remove MoneyByte Dev Account?"
+msgstr "Supprimer le compte MoneyByte Dev ?"
 
 #: src/js/controllers/preferencesBitpayServices.js:19
-msgid "Remove Innova Dev Card?"
-msgstr "Supprimer la Innova Dev Card ?"
+msgid "Remove MoneyByte Dev Card?"
+msgstr "Supprimer la MoneyByte Dev Card ?"
 
 #: src/js/controllers/preferencesBitpayServices.js:8
-msgid "Removing your Innova Dev account will remove all associated Innova Dev account data from this device. Are you sure you would like to remove your Innova Dev Account ({{email}}) from this device?"
-msgstr "La suppression de votre compte Innova Dev supprimera tous les données de compte Innova Dev associées à cet appareil. Êtes-vous sûr(e) de vouloir supprimer votre compte Innova Dev {{email}} de cet appareil ?"
+msgid "Removing your MoneyByte Dev account will remove all associated MoneyByte Dev account data from this device. Are you sure you would like to remove your MoneyByte Dev Account ({{email}}) from this device?"
+msgstr "La suppression de votre compte MoneyByte Dev supprimera tous les données de compte MoneyByte Dev associées à cet appareil. Êtes-vous sûr(e) de vouloir supprimer votre compte MoneyByte Dev {{email}} de cet appareil ?"
 
 #: www/views/join.html:116
 #: www/views/join.html:124
@@ -2507,8 +2507,8 @@ msgid "Search Transactions"
 msgstr "Rechercher des transactions"
 
 #: www/views/tab-send.html:18
-msgid "Search or enter innova address"
-msgstr "Recherchez ou saisissez une adresse innova"
+msgid "Search or enter moneybyte address"
+msgstr "Recherchez ou saisissez une adresse moneybyte"
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
@@ -2539,8 +2539,8 @@ msgid "Self-signed Certificate"
 msgstr "Certificat auto-signé"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Innova..."
-msgstr "Vente de innovas..."
+msgid "Selling MoneyByte..."
+msgstr "Vente de moneybytes..."
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2692,8 +2692,8 @@ msgid "Show advanced options"
 msgstr "Afficher les options avancées"
 
 #: www/views/tab-send.html:42
-msgid "Show innova address"
-msgstr "Afficher vos adresses innova"
+msgid "Show moneybyte address"
+msgstr "Afficher vos adresses moneybyte"
 
 #: www/views/tab-send.html:64
 msgid "Show more"
@@ -2740,8 +2740,8 @@ msgid "Slide to send"
 msgstr "Faites glisser pour envoyer"
 
 #: www/views/preferencesCash.html:56
-msgid "Some of your wallets are not eligible for Innova Cash support. You can try to access BCH funds from these wallets using the"
-msgstr "Certains de vos portefeuilles ne sont pas éligibles à Innova Cash. Vous pouvez essayer d’avoir accès aux fonds BCH de ces portefeuilles à l’aide de"
+msgid "Some of your wallets are not eligible for MoneyByte Cash support. You can try to access BCH funds from these wallets using the"
+msgstr "Certains de vos portefeuilles ne sont pas éligibles à MoneyByte Cash. Vous pouvez essayer d’avoir accès aux fonds BCH de ces portefeuilles à l’aide de"
 
 #: src/js/controllers/create.js:86
 #: src/js/controllers/join.js:70
@@ -2761,12 +2761,12 @@ msgid "Spending Password needed"
 msgstr "Code de dépenses requis"
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant Innova network fees"
-msgstr "La dépense de ce solde demandera d'importants frais de réseau Innova"
+msgid "Spending this balance will need significant MoneyByte network fees"
+msgstr "La dépense de ce solde demandera d'importants frais de réseau MoneyByte"
 
 #: www/views/tab-send.html:33
-msgid "Start sending innova"
-msgstr "Commencez à envoyer des innovas"
+msgid "Start sending moneybyte"
+msgstr "Commencez à envoyer des moneybytes"
 
 #: www/views/lockSetup.html:3
 msgid "Startup Lock"
@@ -2803,8 +2803,8 @@ msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "CETTE ACTION NE PEUT PAS ÊTRE ANNULÉE"
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with innova."
-msgstr "Prenez le contrôle de votre argent,<br>commencez avec innova."
+msgid "Take control of your money,<br>get started with moneybyte."
+msgstr "Prenez le contrôle de votre argent,<br>commencez avec moneybyte."
 
 #: www/views/walletDetails.html:132
 #: www/views/walletDetails.html:52
@@ -2859,16 +2859,16 @@ msgid "The Ledger Chrome application is not installed"
 msgstr "L'application Ledger pour Chrome n'est pas installée"
 
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of innova immediately spendable from this wallet."
-msgstr "Le montant des innovas immédiatement disponibles depuis ce portefeuille."
+msgid "The amount of moneybyte immediately spendable from this wallet."
+msgstr "Le montant des moneybytes immédiatement disponibles depuis ce portefeuille."
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of innova stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "Le montant des innovas stockés dans ce portefeuille qui est alloué en tant qu'entrées à vos propositions de transaction en attente. Le montant est déterminé en utilisant les sorties de transaction non dépensées associées à ce portefeuille et peut être plus important que les montants réels associés à vos propositions de transaction en attente."
+msgid "The amount of moneybyte stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgstr "Le montant des moneybytes stockés dans ce portefeuille qui est alloué en tant qu'entrées à vos propositions de transaction en attente. Le montant est déterminé en utilisant les sorties de transaction non dépensées associées à ce portefeuille et peut être plus important que les montants réels associés à vos propositions de transaction en attente."
 
 #: www/views/modals/wallet-balance.html:74
-msgid "The amount of innova stored in this wallet with less than 1 blockchain confirmation."
-msgstr "Le montant des innovas stockés dans ce portefeuille avec moins d'une confirmation blockchain."
+msgid "The amount of moneybyte stored in this wallet with less than 1 blockchain confirmation."
+msgstr "Le montant des moneybytes stockés dans ce portefeuille avec moins d'une confirmation blockchain."
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2887,8 +2887,8 @@ msgid "The maximum number of consecutive unused addresses (20) has been reached.
 msgstr "Le nombre maximal d’adresses inutilisées consécutives (20) a été atteint. Lorsqu'une de vos adresses inutilisées reçoit un paiement, une nouvelle adresse sera générée et affichée dans votre onglet Recevoir."
 
 #: src/js/controllers/onboarding/terms.js:21
-msgid "The official English Terms of Service are available on the Innova Dev website."
-msgstr "Les conditions d'utilisation officielles en anglais sont disponibles sur le site internet de Innova Dev."
+msgid "The official English Terms of Service are available on the MoneyByte Dev website."
+msgstr "Les conditions d'utilisation officielles en anglais sont disponibles sur le site internet de MoneyByte Dev."
 
 #: www/views/tab-import-phrase.html:4
 msgid "The password of the recovery phrase (if set)"
@@ -2922,8 +2922,8 @@ msgid "The spend proposal is not pending"
 msgstr "La proposition de dépense n'est pas en attente"
 
 #: www/views/modals/wallet-balance.html:36
-msgid "The total amount of innova stored in this wallet."
-msgstr "Le montant total des innovas stockés dans ce portefeuille."
+msgid "The total amount of moneybyte stored in this wallet."
+msgstr "Le montant total des moneybytes stockés dans ce portefeuille."
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -2953,12 +2953,12 @@ msgid "This app is fantastic!"
 msgstr "Cette appli est fantastique !"
 
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your innova with cutting-edge security."
-msgstr "Cette appli conserve vos innovas avec une sécurité de pointe."
+msgid "This app stores your moneybyte with cutting-edge security."
+msgstr "Cette appli conserve vos moneybytes avec une sécurité de pointe."
 
 #: src/js/controllers/confirm.js:523
-msgid "This innova payment request has expired."
-msgstr "Cette demande de paiement innova a expiré."
+msgid "This moneybyte payment request has expired."
+msgstr "Cette demande de paiement moneybyte a expiré."
 
 #: www/views/join.html:133
 #: www/views/tab-create-personal.html:103
@@ -2971,8 +2971,8 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "Cette phrase de récupération a été créée avec un mot de passe. Pour récupérer ce portefeuille, la phrase de récupération et le mot de passe sont requis."
 
 #: www/views/tx-details.html:91
-msgid "This transaction amount is too small compared to current Innova network fees. Spending these funds will need a Innova network fee cost comparable to the funds itself."
-msgstr "Ce montant de transaction est trop faible par rapport aux actuels frais de réseau Innova. La dépense de ces fonds demandera des frais de réseau Innova comparables aux fonds eux-mêmes."
+msgid "This transaction amount is too small compared to current MoneyByte network fees. Spending these funds will need a MoneyByte network fee cost comparable to the funds itself."
+msgstr "Ce montant de transaction est trop faible par rapport aux actuels frais de réseau MoneyByte. La dépense de ces fonds demandera des frais de réseau MoneyByte comparables aux fonds eux-mêmes."
 
 #: www/views/tx-details.html:87
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender"
@@ -2998,16 +2998,16 @@ msgid "To"
 msgstr "À"
 
 #: www/views/tab-send.html:37
-msgid "To get started, buy innova or share your address. You can receive innova from any wallet or service."
-msgstr "Pour commencer, achetez des innovas ou partagez votre adresse. Vous pouvez recevoir des innovas de n'importe quel portefeuille ou service."
+msgid "To get started, buy moneybyte or share your address. You can receive moneybyte from any wallet or service."
+msgstr "Pour commencer, achetez des moneybytes ou partagez votre adresse. Vous pouvez recevoir des moneybytes de n'importe quel portefeuille ou service."
 
 #: www/views/tab-send.html:38
-msgid "To get started, you'll need to create a innova wallet and get some innova."
-msgstr "Pour commencer, vous aurez besoin de créer un portefeuille innova et d'obtenir quelques innovas."
+msgid "To get started, you'll need to create a moneybyte wallet and get some moneybyte."
+msgstr "Pour commencer, vous aurez besoin de créer un portefeuille moneybyte et d'obtenir quelques moneybytes."
 
 #: src/js/services/bitpayAccountService.js:73
-msgid "To {{reason}} you must first add your Innova Dev account - {{email}}"
-msgstr "Pour {{reason}} vous devez d'abord ajouter votre compte Innova Dev - {{email}}"
+msgid "To {{reason}} you must first add your MoneyByte Dev account - {{email}}"
+msgstr "Pour {{reason}} vous devez d'abord ajouter votre compte MoneyByte Dev - {{email}}"
 
 #: src/js/services/onGoingProcess.js:48
 msgid "Top up in progress..."
@@ -3094,8 +3094,8 @@ msgid "Try again in {{expires}}"
 msgstr "Réessayez dans {{expires}}"
 
 #: www/views/bitpayCardIntro.html:18
-msgid "Turn innova into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "Convertissez des innovas en dollars et dépensez partout où Visa<sup>&reg;</sup> est accepté."
+msgid "Turn moneybyte into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgstr "Convertissez des moneybytes en dollars et dépensez partout où Visa<sup>&reg;</sup> est accepté."
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
@@ -3204,8 +3204,8 @@ msgid "WARNING: UNTRUSTED CERTIFICATE"
 msgstr "ATTENTION : CERTIFICAT NON APPROUVÉ"
 
 #: www/views/preferencesPrivateKey.html:14
-msgid "WARNING: Your extended private keys are all that is needed to access your innova funds. Be sure to protect your private keys and store them only on secure devices. Innova Dev does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
-msgstr "Attention : vos clés privées étendues permettent un accès direct et intégral à vos fonds innova. Veillez à protéger vos clés privées et à ne les stocker que sur des appareils sécurisés. Innova Dev n'a pas accès à vos clés privées et vous êtes seul responsable de vos clés. Si vous partagez l'accès à une clé avec des services externes, vous assumez la responsabilité du risque de vol ou de violation. Seuls les utilisateurs avertis doivent gérer les clés privées étendues."
+msgid "WARNING: Your extended private keys are all that is needed to access your moneybyte funds. Be sure to protect your private keys and store them only on secure devices. MoneyByte Dev does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
+msgstr "Attention : vos clés privées étendues permettent un accès direct et intégral à vos fonds moneybyte. Veillez à protéger vos clés privées et à ne les stocker que sur des appareils sécurisés. MoneyByte Dev n'a pas accès à vos clés privées et vous êtes seul responsable de vos clés. Si vous partagez l'accès à une clé avec des services externes, vous assumez la responsabilité du risque de vol ou de violation. Seuls les utilisateurs avertis doivent gérer les clés privées étendues."
 
 #: src/js/services/onGoingProcess.js:15
 msgid "Waiting for Ledger..."
@@ -3457,16 +3457,16 @@ msgid "You can make contributions by signing up on our Crowdin community transla
 msgstr "Vous pouvez apporter des contributions en vous inscrivant sur notre site internet de traduction communautaire Crowdin. Nous sommes impatients de vous y voir !"
 
 #: www/views/tab-scan.html:16
-msgid "You can scan innova addresses, payment requests, paper wallets, and more."
-msgstr "Vous pouvez numériser des adresses innova, des demandes de paiement, des portefeuilles de papier et plus."
+msgid "You can scan moneybyte addresses, payment requests, paper wallets, and more."
+msgstr "Vous pouvez numériser des adresses moneybyte, des demandes de paiement, des portefeuilles de papier et plus."
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
 msgstr "Vous pouvez voir les derniers développements et contribuer à cette application open source en visitant notre projet sur GitHub."
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend innova at millions of websites and stores worldwide."
-msgstr "Vous pouvez dépenser des innovas dans des millions de sites internet et de boutiques à travers le monde."
+msgid "You can spend moneybyte at millions of websites and stores worldwide."
+msgstr "Vous pouvez dépenser des moneybytes dans des millions de sites internet et de boutiques à travers le monde."
 
 #: www/views/backup.html:15
 msgid "You can still export it from Advanced &gt; Export."
@@ -3477,24 +3477,24 @@ msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
 msgstr "Vous pouvez l’échanger contre d'autres monnaies comme le dollar américain, l'euro ou la livre."
 
 #: www/views/onboarding/tour.html:46
-msgid "You control your innova."
-msgstr "Vous contrôlez vos innovas."
+msgid "You control your moneybyte."
+msgstr "Vous contrôlez vos moneybytes."
 
 #: www/views/modals/chooseFeeLevel.html:64
 msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte."
 msgstr "Vous ne devriez pas définir des frais plus élevés que {{maxFeeRecommended}} satoshis/byte."
 
 #: www/views/modals/bitpay-card-confirmation.html:5
-msgid "You will need to log back for fill in your Innova Dev Card."
-msgstr "Vous devrez vous reconnecter pour approvisionner votre Innova Dev Card."
+msgid "You will need to log back for fill in your MoneyByte Dev Card."
+msgstr "Vous devrez vous reconnecter pour approvisionner votre MoneyByte Dev Card."
 
 #: www/views/preferencesNotifications.html:34
 msgid "You'll receive email notifications about payments sent and received from your wallets."
 msgstr "Vous recevrez des notifications par e-mail concernant les paiements envoyés et reçus depuis vos portefeuilles."
 
 #: www/views/bitpayCard.html:50
-msgid "Your Innova Dev Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
-msgstr "Votre Innova Dev Card est prête. Ajoutez des fonds sur votre carte pour commencer à l'utiliser dans des magasins et distributeurs automatiques à travers le monde entier."
+msgid "Your MoneyByte Dev Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
+msgstr "Votre MoneyByte Dev Card est prête. Ajoutez des fonds sur votre carte pour commencer à l'utiliser dans des magasins et distributeurs automatiques à travers le monde entier."
 
 #: www/views/mercadoLibre.html:57
 #: www/views/mercadoLibreCards.html:6
@@ -3502,12 +3502,12 @@ msgid "Your Gift Cards"
 msgstr "Vos cartes-cadeaux"
 
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your innova wallet is backed up!"
-msgstr "Votre portefeuille innova est sauvegardé !"
+msgid "Your moneybyte wallet is backed up!"
+msgstr "Votre portefeuille moneybyte est sauvegardé !"
 
 #: www/views/tab-home.html:50
-msgid "Your innova wallet is ready!"
-msgstr "Votre portefeuille innova est prêt !"
+msgid "Your moneybyte wallet is ready!"
+msgstr "Votre portefeuille moneybyte est prêt !"
 
 #: www/views/modals/chooseFeeLevel.html:61
 msgid "Your fee is lower than recommended."
@@ -3566,8 +3566,8 @@ msgid "[Scanning Funds]"
 msgstr "[Analyse des fonds]"
 
 #: src/js/controllers/bitpayCardIntro.js:11
-msgid "add your Innova Dev Visa card(s)"
-msgstr "ajouter vos cartes Innova Dev Visa"
+msgid "add your MoneyByte Dev Visa card(s)"
+msgstr "ajouter vos cartes MoneyByte Dev Visa"
 
 #: www/views/includes/available-balance.html:8
 msgid "locked by pending payments"
@@ -3598,12 +3598,12 @@ msgid "{{amountStr}} for Mercado Livre Brazil Gift Card"
 msgstr "{{amountStr}} pour la carte-cadeau Mercado Livre Brazil"
 
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.innovacoin.info (Innova Dev's public BWS instance)."
-msgstr "{{appName}} repose sur Bitcore Wallet Service (BWS) pour les informations de blockchain, le réseau et la synchronisation des Copayers. La configuration par défaut est orientée vers https://bws.innovacoin.info (instance BWS publique de Innova Dev)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.MoneyByte.info (MoneyByte Dev's public BWS instance)."
+msgstr "{{appName}} repose sur Bitcore Wallet Service (BWS) pour les informations de blockchain, le réseau et la synchronisation des Copayers. La configuration par défaut est orientée vers https://bws.MoneyByte.info (instance BWS publique de MoneyByte Dev)."
 
 #: src/js/controllers/confirm.js:408
-msgid "{{fee}} will be deducted for innova networking fees."
-msgstr "{{fee}} seront déduits pour les frais de réseau Innova."
+msgid "{{fee}} will be deducted for moneybyte networking fees."
+msgstr "{{fee}} seront déduits pour les frais de réseau MoneyByte."
 
 #: www/views/confirm.html:85
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"

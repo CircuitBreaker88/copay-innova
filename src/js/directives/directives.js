@@ -9,7 +9,7 @@ angular.module('copayApp.directives')
           var URI = bitcore.URI;
           var Address = bitcore.Address
 
-          // Innova address
+          // MoneyByte address
           var URICash = bitcoreCash.URI;
           var AddressCash = bitcoreCash.Address
 
@@ -47,7 +47,7 @@ angular.module('copayApp.directives')
               return;
             }
 
-            // Regular Address: try Bitcoin and Innova
+            // Regular Address: try Bitcoin and MoneyByte
             var regularAddressLivenet = Address.isValid(value, 'livenet');
             var regularAddressTestnet = Address.isValid(value, 'testnet');
             var regularAddressCashLivenet = AddressCash.isValid(value, 'livenet');

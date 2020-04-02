@@ -41,7 +41,7 @@ angular.module('copayApp.controllers').controller('tabSettingsController', funct
 
   $scope.openExternalLink = function() {
     var appName = appConfigService.name;
-    var url = appName == 'copay' ? 'https://github.com/innovacoin/copay-innova/issues' : 'https://github.com/innovacoin/copay-innova/issues';
+    var url = appName == 'copay' ? 'https://github.com/MoneyByte/copay/issues' : 'https://github.com/MoneyByte/copay/issues';
     var optIn = true;
     var title = null;
     var message = gettextCatalog.getString('Help and support information is available at the website.');

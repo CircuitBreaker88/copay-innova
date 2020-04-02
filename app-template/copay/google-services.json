@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "98274424957",
-    "firebase_url": "https://innova-ebce5.firebaseio.com",
-    "project_id": "innova-ebce5",
-    "storage_bucket": "innova-ebce5.appspot.com"
+    "firebase_url": "https://moneybyte-ebce5.firebaseio.com",
+    "project_id": "moneybyte-ebce5",
+    "storage_bucket": "moneybyte-ebce5.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:98274424957:android:13e8540525765b33",
         "android_client_info": {
-          "package_name": "com.innova.copay"
+          "package_name": "com.moneybyte.copay"
         }
       },
       "oauth_client": [

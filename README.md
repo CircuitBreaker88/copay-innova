@@ -1,13 +1,13 @@
-<img src="https://raw.githubusercontent.com/innovacoin/copay-innova/master/resources/innova/android/icon/drawable-xxxhdpi-icon.png" alt="Copay" width="79">
+<img src="https://raw.githubusercontent.com/MoneyByte/copay/master/resources/moneybyte/android/icon/drawable-xxxhdpi-icon.png" alt="Copay" width="79">
 
-[![Build Status](https://secure.travis-ci.org/innovacoin/copay-innova.svg)](http://travis-ci.org/innovacoin/copay-innova)
+[![Build Status](https://secure.travis-ci.org/MoneyByte/copay.svg)](http://travis-ci.org/MoneyByte/copay)
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/copay/localized.png)](https://crowdin.com/project/copay)
 
-Copay is a secure Bitcoin and Bitcoin Cash wallet platform for both desktop and mobile devices. Copay uses [Bitcore Wallet Service](https://github.com/innovacoin/bitcore-wallet-service-innova) (BWS) for peer synchronization and network interfacing.
+Copay is a secure Bitcoin and Bitcoin Cash wallet platform for both desktop and mobile devices. Copay uses [Bitcore Wallet Service](https://github.com/MoneyByte/bitcore-wallet-service) (BWS) for peer synchronization and network interfacing.
 
-Binary versions of Copay are available for download at [Copay.io](https://copay.io/#download). Copay Binaries are signed with the key `copay@bitpay.com` – See the section [`How to Verify Copay Signatures`](https://github.com/innovacoin/copay-innova#how-to-verify-copay-signatures) for details.
+Binary versions of Copay are available for download at [Copay.io](https://copay.io/#download). Copay Binaries are signed with the key `copay@bitpay.com` – See the section [`How to Verify Copay Signatures`](https://github.com/MoneyByte/copay#how-to-verify-copay-signatures) for details.
 
-For a list of frequently asked questions please visit the [Copay FAQ](https://github.com/innovacoin/copay-innova/wiki/COPAY---FAQ).
+For a list of frequently asked questions please visit the [Copay FAQ](https://github.com/MoneyByte/copay/wiki/COPAY---FAQ).
 
 ## Main Features
 
@@ -29,16 +29,16 @@ For a list of frequently asked questions please visit the [Copay FAQ](https://gi
 - Customizable wallet naming and background colors
 - Multiple languages supported
 - Available for [iOS](https://itunes.apple.com/us/app/copay/id951330296), [Android](https://play.google.com/store/apps/details?id=com.bitpay.copay&hl=en), [Windows Phone](https://www.microsoft.com/en-us/store/p/copay-secure-bitcoin-wallet/9nm8z2b0387b),
- [Chrome App](https://chrome.google.com/webstore/detail/copay/cnidaodnidkbaplmghlelgikaiejfhja?hl=en), [Linux](https://github.com/innovacoin/copay-innova/releases/latest), [Windows](https://github.com/innovacoin/copay-innova/releases/latest) and [OS X](https://github.com/innovacoin/copay-innova/releases/latest) devices
+ [Chrome App](https://chrome.google.com/webstore/detail/copay/cnidaodnidkbaplmghlelgikaiejfhja?hl=en), [Linux](https://github.com/MoneyByte/copay/releases/latest), [Windows](https://github.com/MoneyByte/copay/releases/latest) and [OS X](https://github.com/MoneyByte/copay/releases/latest) devices
 
 ## Testing in a Browser
 
-> **Note:** This method should only be used for development purposes. When running Copay in a normal browser environment, browser extensions and other malicious code might have access to internal data and private keys. For production use, see the latest official [releases](https://github.com/innovacoin/copay-innova/releases/).
+> **Note:** This method should only be used for development purposes. When running Copay in a normal browser environment, browser extensions and other malicious code might have access to internal data and private keys. For production use, see the latest official [releases](https://github.com/MoneyByte/copay/releases/).
 
 Clone the repo and open the directory:
 
 ```sh
-git clone https://github.com/innovacoin/copay-innova.git
+git clone https://github.com/MoneyByte/copay.git
 cd copay
 ```
 
@@ -205,11 +205,11 @@ For more information regarding how addresses are generated using this procedure,
 
 Since v1.2 Copay uses BIP39 mnemonics for backing up wallets.  The BIP44 standard is used for wallet address derivation. Multisig wallets use P2SH addresses, while non-multisig wallets use P2PKH.
 
-Information about backup and recovery procedures is available at: https://github.com/innovacoin/copay-innova/blob/master/backupRecovery.md
+Information about backup and recovery procedures is available at: https://github.com/MoneyByte/copay/blob/master/backupRecovery.md
 
 Previous versions of Copay used files as backups. See the following section.
 
-It is possible to recover funds from a Copay Wallet without using Copay or the Wallet Service, check the [Copay Recovery Tool](https://github.com/innovacoin/copay-innova-recovery).
+It is possible to recover funds from a Copay Wallet without using Copay or the Wallet Service, check the [Copay Recovery Tool](https://github.com/MoneyByte/copay-recovery).
 
 
 ## Wallet Export Format
@@ -236,7 +236,7 @@ Since version 1.5, Copay uses the root `m/48'` for hardware multisignature walle
 
 ## Bitcore Wallet Service
 
-Copay depends on [Bitcore Wallet Service](https://github.com/innovacoin/bitcore-wallet-service-innova) (BWS) for blockchain information, networking and Copayer synchronization.  A BWS instance can be setup and operational within minutes or you can use a public instance like `https://bws.bitpay.com`.  Switching between BWS instances is very simple and can be done with a click from within Copay.  BWS also allows Copay to interoperate with other wallets like [Bitcore Wallet CLI] (https://github.com/innovacoin/bitcore-wallet-innova).
+Copay depends on [Bitcore Wallet Service](https://github.com/MoneyByte/bitcore-wallet-service) (BWS) for blockchain information, networking and Copayer synchronization.  A BWS instance can be setup and operational within minutes or you can use a public instance like `https://bws.bitpay.com`.  Switching between BWS instances is very simple and can be done with a click from within Copay.  BWS also allows Copay to interoperate with other wallets like [Bitcore Wallet CLI] (https://github.com/MoneyByte/bitcore-wallet).
 
 ## Hardware Wallet Support
 
@@ -263,7 +263,7 @@ When creating or joining a wallet, Copay will ask for two public keys for the de
 
 Every time you need to sign a transaction, the device will be needed to perform the signature. Follow the on screen instructions after clicking the `send` or `accept` buttons.
 
-Finally, in case you lose the device and you have the 24 word seed for the device, you can recover access to your funds using Copay, see: https://github.com/innovacoin/copay-innova/blob/master/backupRecovery.md#hardware-wallets
+Finally, in case you lose the device and you have the 24 word seed for the device, you can recover access to your funds using Copay, see: https://github.com/MoneyByte/copay/blob/master/backupRecovery.md#hardware-wallets
 
 
 ## Translations
@@ -370,4 +370,4 @@ review the [guidelines for contributing](CONTRIBUTING.md).
 
 ## License
 
-Copay is released under the MIT License.  Please refer to the [LICENSE](https://github.com/innovacoin/copay-innova/blob/master/LICENSE) file that accompanies this project for more information including complete terms and conditions.
+Copay is released under the MIT License.  Please refer to the [LICENSE](https://github.com/MoneyByte/copay/blob/master/LICENSE) file that accompanies this project for more information including complete terms and conditions.

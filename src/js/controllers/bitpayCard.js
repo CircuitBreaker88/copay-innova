@@ -117,7 +117,7 @@ angular.module('copayApp.controllers').controller('bitpayCardController', functi
 
   this.viewOnBlockchain = function(transactionId) {
     // var url = 'https://insight.bitpay.com/tx/' + transactionId;
-    var url = 'https://insight.innovacoin.info/tx/' + transactionId;    
+    var url = 'https://insight.MoneyByte.info/tx/' + transactionId;    
     var optIn = true;
     var title = null;
     var message = gettextCatalog.getString('View Transaction on Insight');

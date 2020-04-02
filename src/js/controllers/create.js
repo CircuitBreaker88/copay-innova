@@ -112,7 +112,7 @@ angular.module('copayApp.controllers').controller('createController',
         m: $scope.formData.requiredCopayers,
         n: $scope.formData.totalCopayers,
         myName: $scope.formData.totalCopayers > 1 ? $scope.formData.myName : null,
-        networkName: $scope.formData.testnetEnabled && $scope.formData.coin != 'innova' ? 'testnet' : 'livenet',
+        networkName: $scope.formData.testnetEnabled && $scope.formData.coin != 'moneybyte' ? 'testnet' : 'livenet',
         bwsurl: $scope.formData.bwsurl,
         singleAddress: $scope.formData.singleAddressEnabled,
         walletPrivKey: $scope.formData._walletPrivKey, // Only for testing
@@ -151,7 +151,7 @@ angular.module('copayApp.controllers').controller('createController',
 
       if ($scope.formData.seedSource.id == walletService.externalSource.ledger.id || $scope.formData.seedSource.id == walletService.externalSource.trezor.id || $scope.formData.seedSource.id == walletService.externalSource.intelTEE.id) {
         if ($scope.formData.coin == 'bch') {
-          popupService.showAlert(gettextCatalog.getString('Error'), gettextCatalog.getString('Hardware wallets are not yet supported with Innova'));
+          popupService.showAlert(gettextCatalog.getString('Error'), gettextCatalog.getString('Hardware wallets are not yet supported with MoneyByte'));
           return;
         }
 

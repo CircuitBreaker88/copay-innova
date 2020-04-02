@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.innova.*BUNDLENAME*"
+<widget id="com.moneybyte.*BUNDLENAME*"
   version="*VERSION*"
   android-versionCode="*ANDROIDVERSION*"
   ios-CFBundleVersion="*VERSION*">
@@ -7,8 +7,8 @@
     <description>
       *PURPOSELINE*
     </description>
-    <author email="support@innovacoin.info" href="*URL*">
-        Innova Dev.
+    <author email="support@MoneyByte.info" href="*URL*">
+        MoneyByte Dev.
     </author>
     <content src="index.html" />
     <access origin="*" />

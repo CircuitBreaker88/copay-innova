@@ -18,13 +18,13 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
 
     if ($scope.wallet.coin == 'bch') {
       if (walletService.useLegacyAddress($scope.wallet)) {
-        blockexplorerUrl = 'insight.innovacoin.info';
+        blockexplorerUrl = 'insight.MoneyByte.info';
       } else {
-        blockexplorerUrl = 'insight.innovacoin.info';
+        blockexplorerUrl = 'insight.MoneyByte.info';
       }
     } else {
       // blockexplorerUrl = 'insight.bitpay.com';
-      blockexplorerUrl = 'insight.innovacoin.info';
+      blockexplorerUrl = 'insight.MoneyByte.info';
     }
 
     txConfirmNotification.checkIfEnabled(txId, function(res) {
@@ -53,7 +53,7 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
   });
 
   $scope.readMore = function() {
-    var url = 'https://github.com/innovacoin/copay-innova/wiki/COPAY---FAQ#amount-too-low-to-spend';
+    var url = 'https://github.com/MoneyByte/copay/wiki/COPAY---FAQ#amount-too-low-to-spend';
     var optIn = true;
     var title = null;
     var message = gettextCatalog.getString('Read more in our Wiki');

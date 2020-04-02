@@ -7,34 +7,34 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>98274424957-d94akhkm3pmuo60cb8iij8hlno7r7u9e.apps.googleusercontent.com</string>
+	<string>76686631386-dc68r96ho4iis6oonqa4lsameb04jd9m.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.98274424957-d94akhkm3pmuo60cb8iij8hlno7r7u9e</string>
+	<string>com.googleusercontent.apps.76686631386-dc68r96ho4iis6oonqa4lsameb04jd9m</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCrlkZF6irdRJI2OlGUuJKN1pWuj7tgXTE</string>
+	<string>AIzaSyADDyhpNjDfcaFDd07f-K5nDxZUmqebHT8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>98274424957</string>
+	<string>76686631386</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.innova.copay</string>
+	<string>com.moneybyte.copay</string>
 	<key>PROJECT_ID</key>
-	<string>innova-ebce5</string>
+	<string>moneybyte-42c8f</string>
 	<key>STORAGE_BUCKET</key>
-	<string>innova-ebce5.appspot.com</string>
+	<string>moneybyte-42c8f.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
 	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:98274424957:ios:13e8540525765b33</string>
+	<string>1:76686631386:ios:9ba86c8c1016f1214f20e3</string>
 	<key>DATABASE_URL</key>
-	<string>https://innova-ebce5.firebaseio.com</string>
+	<string>https://moneybyte-42c8f.firebaseio.com</string>
 </dict>
 </plist>
